@@ -1,6 +1,6 @@
 //
-//  BaseTestCase.m
-//  BaseTestCase
+//  ObjectTestCase.m
+//  SimpleCode
 //
 //  Created by Tang Tianyong on 6/7/16.
 //  Copyright © 2016 LeanCloud. All rights reserved.
@@ -8,7 +8,11 @@
 
 #import "BaseTestCase.h"
 
-@implementation BaseTestCase
+@interface ObjectTestCase : BaseTestCase
+
+@end
+
+@implementation ObjectTestCase
 
 - (void)setUp {
     [super setUp];
