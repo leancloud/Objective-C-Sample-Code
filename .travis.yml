@@ -1,3 +1,3 @@
 language: objective-c
-xcode_project: SimpleCode.xcodeproj
+xcode_workspace: SimpleCode.xcworkspace
 xcode_scheme: SimpleCodeTests
