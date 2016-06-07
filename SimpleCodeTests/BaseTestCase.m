@@ -1,6 +1,6 @@
 //
-//  SimpleCodeTests.m
-//  SimpleCodeTests
+//  BaseTestCase.m
+//  BaseTestCase
 //
 //  Created by Tang Tianyong on 6/7/16.
 //  Copyright © 2016 LeanCloud. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface SimpleCodeTests : XCTestCase
+@interface BaseTestCase : XCTestCase
 
 @end
 
-@implementation SimpleCodeTests
+@implementation BaseTestCase
 
 - (void)setUp {
     [super setUp];

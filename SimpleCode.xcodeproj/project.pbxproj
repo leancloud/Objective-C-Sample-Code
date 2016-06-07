@@ -14,7 +14,7 @@
 		83A93C7E1D06B90300C96D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A93C7C1D06B90300C96D28 /* Main.storyboard */; };
 		83A93C801D06B90300C96D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A93C7F1D06B90300C96D28 /* Assets.xcassets */; };
 		83A93C831D06B90300C96D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A93C811D06B90300C96D28 /* LaunchScreen.storyboard */; };
-		83A93C8E1D06B90300C96D28 /* SimpleCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A93C8D1D06B90300C96D28 /* SimpleCodeTests.m */; };
+		83A93C8E1D06B90300C96D28 /* BaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A93C8D1D06B90300C96D28 /* BaseTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		83A93C821D06B90300C96D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A93C841D06B90300C96D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A93C891D06B90300C96D28 /* SimpleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A93C8D1D06B90300C96D28 /* SimpleCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCodeTests.m; sourceTree = "<group>"; };
+		83A93C8D1D06B90300C96D28 /* BaseTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTestCase.m; sourceTree = "<group>"; };
 		83A93C8F1D06B90300C96D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFEE9B3BC427CDCFE4925B85 /* Pods-SimpleCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCodeTests/Pods-SimpleCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +129,7 @@
 		83A93C8C1D06B90300C96D28 /* SimpleCodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				83A93C8D1D06B90300C96D28 /* SimpleCodeTests.m */,
+				83A93C8D1D06B90300C96D28 /* BaseTestCase.m */,
 				83A93C8F1D06B90300C96D28 /* Info.plist */,
 			);
 			path = SimpleCodeTests;
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A93C8E1D06B90300C96D28 /* SimpleCodeTests.m in Sources */,
+				83A93C8E1D06B90300C96D28 /* BaseTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
