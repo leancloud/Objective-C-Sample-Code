@@ -366,6 +366,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SimpleCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.leancloud.SimpleCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +379,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SimpleCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.leancloud.SimpleCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +406,7 @@
 				83A93C941D06B90300C96D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83A93C951D06B90300C96D28 /* Build configuration list for PBXNativeTarget "SimpleCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +415,7 @@
 				83A93C971D06B90300C96D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
